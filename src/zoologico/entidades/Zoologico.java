@@ -1,3 +1,6 @@
+package zoologico.entidades;
+
+import java.util.Date;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -10,8 +13,8 @@
  * @author educacionit
  */
 public class Zoologico {
-    private final int CANTIDAD_ANIMALES = 25;
-    private final int RACIONES_POR_ANIMAL = 5;
+    public static final int CANTIDAD_ANIMALES = 25;
+    public static final int RACIONES_POR_ANIMAL = 5;
     
     private boolean abierto;
 
@@ -28,6 +31,7 @@ public class Zoologico {
     }
     
     public void alimentarAnimales(int cantidadDeRaciones){
-        
+        Cuidador c1 = new Cuidador ("Juan", new Date (1988,3,8), 50);
+        c1.alimentarAnimales();
     }
 }

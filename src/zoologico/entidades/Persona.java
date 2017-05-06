@@ -1,3 +1,4 @@
+package zoologico.entidades;
 
 import java.util.Date;
 
