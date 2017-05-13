@@ -11,12 +11,10 @@ package zoologico.entidades;
  */
 public class Programa {
     
-    public void main(){
+    public static void main(String[] args){
         Zoologico zoo = new Zoologico();
         zoo.abrir();
-        zoo.alimentarAnimales(1000);
+        zoo.alimentarAnimales(50);
         zoo.cerrar();
-    }
-    
-    
+    }   
 }
