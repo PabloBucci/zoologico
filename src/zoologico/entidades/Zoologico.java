@@ -31,7 +31,7 @@ public class Zoologico {
     }
     
     public void alimentarAnimales(int cantidadDeRaciones){
-        Cuidador c1 = new Cuidador ("Juan", new Date (1988,3,8), 50);
+        Cuidador c1 = new Cuidador ("Juan", new Date (1988,3,8), cantidadDeRaciones);
         c1.alimentarAnimales();
     }
 }
